@@ -7,12 +7,12 @@ def inicio(request):
    return render(request, 'AppCoder/inicio.html')
    #return HttpResponse("vista inicio")   
 
-def curso (request):
+def cursos (request):
    return render(request, 'AppCoder/cursos.html')
    #return HttpResponse("vista cursos")
 
 def profesores (request):
-   return render(request, 'AppCoder/profesores.html')
+   return render(request, 'AppCoder/porfesores.html')
    #return HttpResponse("vista profesores")
 
 def entregables (request):
